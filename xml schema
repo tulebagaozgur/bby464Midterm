@@ -1,0 +1,39 @@
+<?xml version="1.0"encoding= "UTF-8"?/>
+<xs:schema>
+ </xs:element name="Kitap"/>
+    <xs:complexType>
+      <xs:sequence>
+         <xs:element name="KitapID" type="xs:integer"/>
+         <xs:element name="YazarID" type="xs:integer"/>
+         <xs:element name="yayinciID" type="xs:integer"/>
+         <xs:element name="ISBN" type="xs:integer"/>
+         <xs:element name="Adi" type="xs:string"/>
+         <xs:element name="baskitarihi" type="integer"/>
+         <xs:element name="sayfa" type="integer"/>
+         <xs:element name="tur" type="string"/>
+         <xs:element name="dil" type="stirng"/>
+     <xs:sequence/>
+    <xs:complexType/>
+  <xs:element/>  
+ </xs:element name="Yazar"/>
+    <xs:complexType>
+     <xs:ssequence>
+          <xs:element name="YazarID" type="xs:integer/>
+          <xs:element name="KitapID" type="xs:integer/>
+          <xs:element name="adi" type="xs:stirng/>
+          <xs:element name="soyadi" type="xs:string/>
+          <xs:element name="dogumyili" type="xs:string/>
+      <xs:sequence/>
+     <xs:complexType/>
+  <xs:element/>
+ </xs:element name="yayinci/>
+     <xs:complexType/>
+      <xs:sequence/>
+          <xs:element name="yayinciID" type="xs:integer/>
+          <xs:element name="KitapID" type="xs:integer/>
+          <xs:element name="adi" type="xs:string/>
+          <xs:element name="yeri" type="xs:string"/>
+      <xs:sequence/>
+     <xs:complexType/>
+ <xs:element name/>
+<xs:schema/>
